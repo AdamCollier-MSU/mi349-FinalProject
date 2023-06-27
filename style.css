@@ -1,11 +1,15 @@
 #PageNavCont{
     margin: auto;
     padding: 10px 0px;
-    width: 450px;
+    min-width: fit-content;
+    max-width: 600px;
 }
 #PageNav{
     padding: 10px 10px;
 }
 #TableOfContent{
     width: 20%;
+}
+.navbarItem {
+    margin: 0px 10px;
 }
