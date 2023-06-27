@@ -12,16 +12,29 @@
         <div class="container" id="PageNavCont">
             <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" id="PageNav">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="/index.html">GTA Guides</a>
-                        <a class="nav-link active"  href="index.html">Home</a>
-                        <a class="nav-link active"  href="info.html">Information</a>
+                    <div class="navbarItem">
+                        <a class="navbar-brand" href="/index.html">GTA Guides</a>
+                    </div>
+                    <div class="navbarItem">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </div>
+                    <div class="navbarItem">
+                        <a class="nav-link active" href="info.html">Information</a>
+                    </div>
+                    <div class="navbarItem">
                         <a class="nav-link active" aria-current="page" href="strategy.html">strategy</a>
-                </div>
+                    </div>
+                    <div class="navbarItem">
+                        <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#TableOfContent" role="button" >TableOfContent</a>
+                    </div>
+                    
+                </div>  
             </nav>
         </div>
-        <div class="offcanvas offcanvas-start show" id="TableOfContent">
+        <div class="offcanvas offcanvas-start" tableindex="-1" id="TableOfContent">
             <div class="offcanvas-header">
                 <h2 class="offcanvas-title">Table Of Contents</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
         </div>
     </body>
