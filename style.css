@@ -1,3 +1,9 @@
+html, body {
+    background: #fff;
+}
+.sticky-top {
+    background-color: #e3e3e3;
+}
 #PageNavCont{
     margin: auto;
     padding: 10px 0px;
@@ -8,8 +14,23 @@
     padding: 10px 10px;
 }
 #TableOfContent{
-    width: 20%;
+    width: fit-content;
 }
 .navbarItem {
     margin: 0px 10px;
+}
+.card {
+    width: 90%;
+    max-width: 960px;
+    text-align: center;
+    margin:auto;
+    margin-top: 10px;
+    background: #e3e3e3;
+}
+.textbox {
+    margin:0px 10px 10px 10px;
+    text-align: left;
+}
+h2 {
+    border-top: dashed rgb(25, 25, 25) .1em;
 }
