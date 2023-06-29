@@ -9,27 +9,93 @@
     </head>
     <body>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-        <div class="card bg-light text-dark mb-3">
-            <div class="container" id="PageNavCont">
-                <nav class="navbar navbar-expand-lg" id="PageNav">
-                    <div class="container-fluid">
-                        <div class="navbarItem">
-                            <a class="navbar-brand" href="/index.html">GTA Guides</a>
-                        </div>
-                        <div class="navbarItem">
-                            <a class="nav-link active" href="index.html">Home</a>
-                        </div>
-                        <div class="navbarItem">
-                            <a class="nav-link active" aria-current="page" href="info.html">Information</a>
-                        </div>
-                        <div class="navbarItem">
-                            <a class="nav-link active" href="strategy.html">strategy</a>
-                        </div>
-                        <div class="navbarItem">
-                            <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#TableOfContent" role="button" >TableOfContent</a>
-                        </div>
-                    </div>  
-                </nav>
+        <div id="page">
+            <a id="toc-button" class="btn btn-primary sticky-top" data-bs-toggle="offcanvas" href="#TableOfContent" role="button">TOC</a>
+
+            <div class="card bg-light text-dark mb-3">
+                <div class="container" id="PageNavCont">
+                    <nav class="navbar navbar-expand-lg" id="PageNav">
+                        <div class="container-fluid">
+                            <div class="navbarItem">
+                                <a class="navbar-brand" href="/index.html">GTA Guides</a>
+                            </div>
+                            <div class="navbarItem">
+                                <a class="nav-link active" href="index.html">Home</a>
+                            </div>
+                            <div class="navbarItem">
+                                <a class="nav-link active" aria-current="page" href="info.html">Information</a>
+                            </div>
+                            <div class="navbarItem">
+                                <a class="nav-link active" href="strategy.html">strategy</a>
+                            </div>
+                        </div>  
+                    </nav>
+                </div>
+                <div id="equipment section">
+                    <h2 id="equipment">Equipment</h2>
+                    <p class="textbox">equipment info</p>
+
+                    <h3 id="weapons">Weapons</h3>
+                    <p class="textbox">weapons info</p>
+
+                    <h3 id="vehicles">Vehicles</h3>
+                    <p class="textbox">vehicles info</p>
+
+                    <h3 id="misc equipment">Misc Equipment</h3>
+                    <p class="textbox">info about important misc equipment</p>
+
+                </div>
+                <div id="business's section">
+                    <h2 id="Business's Heading">Business's</h2>
+                    <p class="textbox">General info about GTA business's...</p>
+
+                    <h3 id="CEO/VIP">CEO Business's and VIP work</h3>
+                    <p class="textbox">general info about getting office/registering as vip...</p>
+                    <h4 id="VIP Work">VIP Work</h4>
+                    <p class="textbox">Info about VIP work</p>
+                    <h4 id="crates warehouse">Crates Warehouse</h4>
+                    <p class="textbox">crates warehouse</p>
+                    <h4 id="vehicle warehouse">Vehicle Warehouse</h4>
+                    <p class="textbox">vehicle warehouse</p>
+
+                    <h3 id="Motorcycle Club">Motorcycle Club</h3>
+                    <p class="textbox">general info about MC's</p>
+                    <h4 id="contracts/jobs">MC contracts and jobs</h4>
+                    <p class="textbox">info about MC jobs/contracts</p>
+                    <h4 id="coke lockup">Cocaine Lockup</h4>
+                    <p class="textbox">info about coke lockup</p>
+                    <h4 id="meth lab">Meth Lab</h4>
+                    <p class="textbox">Info about meth lab</p>
+                    <h4 id="counterfeit cash">counterfeit Cash</h4>
+                    <p class="textbox">Info about counterfeit cash business</p>
+                    <h4 id="weed farm">Weed Farm</h4>
+                    <p class="textbox">Info about Weed Farm</p>
+                    <h4 id="doc forgery">Document Forgery</h4>
+                    <p class="textbox">info about doc forgery</p>
+
+                    <h3 id="bunker">Bunker</h3>
+                    <p class="textbox">bunkers...</p>
+                    <h3 id="hangar">Hangar</h3>
+                    <p class="textbox">hangars...</p>
+                    <h3 id="nightclub">Nightclub</h3>
+                    <p class="textbox">nightclubs...</p>
+                </div>
+                <div id="heist's section">
+                    <h2 id="heists heading">Heists</h2>
+                    <p class="textbox">info about heists</p>
+
+                    <h3 id="apartment heists">Apartment Heists</h3>
+                    <p class="textbox">info about apartment heists</p>
+
+                    <h3 id="doomsday heists">Doomsday Heists</h3>
+                    <p class="textbox">info about doomsday heists</p>
+
+                    <h3 id="diamond casino heist">Diamond Casino Heist</h3>
+                    <p class="textbox">info about diamond casino</p>
+                    
+                    <h3 id="cayo perico heist">Cayo Perico Heist</h3>
+                    <p class="textbox">info about cayo perico</p>
+                </div>
             </div>
         </div>
         
@@ -38,6 +104,36 @@
                 <h2 class="offcanvas-title">Table Of Contents</h2>
                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
+            <a href="#PageNav">Navigation Bar</a>
+            <ul>
+                <li>
+                    <a href="#Business's Heading">Business's</a>
+                    <ul>
+                        <li>
+                            <a href="#CEO/VIP">CEO/VIP</a>
+                            <ul>
+                                <li><a href="#VIP Work">VIP Work</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#Motorcycle Club">Motorcycle Club</a>    
+                            
+                            <ul>
+                                <li><a href="#contracts/jobs">Contracts/Jobs</a></li>
+                                <li><a href="#coke lockup">Cocaine Lockup</a></li>
+                                <li><a href="#meth lab">Meth Lab</a></li>
+                                <li><a href="#counterfeit cash">counterfeit Cash</a></li>
+                                <li><a href="#weed farm">Weed Farm</a></li>
+                                <li><a href="#doc forgery">Document Forgery</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#bunker">Bunker</a></li>
+                        <li><a href="#hangar">Hangar</a></li>
+                        <li><a href="#nightclub">Nightclub</a></li>
+                    </ul>
+                </li>
+            </ul>
+
         </div>
     </body>
 </html>

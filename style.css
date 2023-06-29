@@ -1,14 +1,21 @@
+body{
+    min-width: 1050px;
+    margin:auto;
+}
 html, body {
     background: #fff;
 }
-.sticky-top {
-    background-color: #e3e3e3;
+#page{
+    margin:auto;
+    justify-content: center;
+}
+#toc-button{
+    margin-right: 5px;
 }
 #PageNavCont{
     margin: auto;
     padding: 10px 0px;
-    min-width: fit-content;
-    max-width: 600px;
+    width: 600px;
 }
 #PageNav{
     padding: 10px 10px;
@@ -20,8 +27,7 @@ html, body {
     margin: 0px 10px;
 }
 .card {
-    width: 90%;
-    max-width: 960px;
+    width: 900px;
     text-align: center;
     margin:auto;
     margin-top: 10px;
@@ -32,5 +38,10 @@ html, body {
     text-align: left;
 }
 h2 {
+    padding-top: 20px;
     border-top: dashed rgb(25, 25, 25) .1em;
+}
+h3 {
+    padding-top: 20px;
+    border-top: dashed rgb(122, 122, 122) .1em;
 }
