@@ -3,35 +3,48 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">        
         <link rel="stylesheet" href="style.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
         <title>GTA Guide</title>
     </head>
     <body>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-        <div class="card bg-light text-dark mb-3">
-            <div class="sticky-top">
+        <div id="page">
+            <a id="toc-button" class="btn btn-primary sticky-top" data-bs-toggle="offcanvas" href="#TableOfContent" role="button">TOC</a>
+
+            <div class="card bg-light text-dark mb-3">
                 <div class="container" id="PageNavCont">
-                    <nav class="navbar navbar-expand-lg sticky-top" id="PageNav">
+                    <nav class="navbar navbar-expand-lg" id="PageNav">
                         <div class="container-fluid">
                             <div class="navbarItem">
-                                <a class="navbar-brand" href="/index.html">GTA Guides</a>
+                                <a class="navbar-brand">GTA Guides</a>
                             </div>
                             <div class="navbarItem">
                                 <a class="nav-link active" href="index.html">Home</a>
                             </div>
                             <div class="navbarItem">
-                                <a class="nav-link active" href="info.html">Information</a>
+                                <a class="nav-link active" aria-current="page" href="info.html">Information</a>
                             </div>
                             <div class="navbarItem">
-                                <a class="nav-link active" aria-current="page" href="strategy.html">strategy</a>
+                                <a class="nav-link active" href="strategy.html">strategy</a>
                             </div>
-                            <div class="navbarItem">
-                                <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#TableOfContent" role="button" >TableOfContent</a>
-                            </div>
-                            
                         </div>  
                     </nav>
+                </div>
+                <div class="row" id="page-header">
+                    <div class="col"><h1>Strategy Page</h1></div>
+                    <div class="col"><img src="images/GTA-online-logo.jpg" alt="gta logo"></div>
+                </div>
+                <div id="getting started">
+                    <h2 id="get started heading">Getting Started</h2>
+                    <p class="textbox">getting started...</p>
+
+                    <h2 id="VIP/Equipment">VIP Work and Equipment</h2>
+                    <p class="textbox">vip work...</p>
+                </div>
+                <div id="business's section">
+                    <h2 id="business's">Aquiring Business's</h2>
+                    <p class="textbox">aquire business's</p>
                 </div>
             </div>
         </div>

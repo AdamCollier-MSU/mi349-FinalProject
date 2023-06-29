@@ -20,11 +20,18 @@ html, body {
 #PageNav{
     padding: 10px 10px;
 }
+#page-header{
+    margin-bottom: 5px;
+}
 #TableOfContent{
     width: fit-content;
 }
 .navbarItem {
     margin: 0px 10px;
+    font-size: 1.3em;
+}
+.navbar-brand{
+    font-size: 1.5em;
 }
 .card {
     width: 900px;
@@ -37,11 +44,24 @@ html, body {
     margin:0px 10px 10px 10px;
     text-align: left;
 }
+h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 h2 {
     padding-top: 20px;
-    border-top: dashed rgb(25, 25, 25) .1em;
+    border-top: solid rgb(25, 25, 25) .1em;
+    font-size: 2em;
+    font-weight: 600;
 }
 h3 {
     padding-top: 20px;
     border-top: dashed rgb(122, 122, 122) .1em;
+    font-size: 1.7em;
+    font-weight: 500;
+}
+h4{
+    padding-top:20px;
+    font-size: 1.4em;
+    font-weight: 500;
 }
